@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suvidya Kankanala — Legislative Assistant, LAMP '27</title>
+<meta name="description" content="Suvidya Kankanala — LAMP Fellow '27 and Legislative Assistant to a Member of Parliament with PRS Legislative Research. Public policy, legislative research and policy drafting.">
+<meta property="og:title" content="Suvidya Kankanala — Legislative Assistant, LAMP '27">
+<meta property="og:description" content="Legislative research and policy drafting with a Member of Parliament. PRS Legislative Research, New Delhi.">
+<meta property="og:image" content="assets/portrait.jpg">
+<meta property="og:type" content="profile">
+<meta name="theme-color" content="#f4f0e6">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231d4434'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' text-anchor='middle' fill='%23f4f0e6'%3ESK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4f0e6; --paper-2:#ece6d8; --card:#fbf9f3;
+  --ink:#15181b; --ink-2:#3b4046; --muted:#6f716c;
+  --line:rgba(21,24,27,.12); --line-2:rgba(21,24,27,.22);
+  --green:#1d4434; --green-2:#2b5c47; --brass:#a9844b; --brass-2:#c9a66b;
+  --serif:"Instrument Serif",Georgia,"Times New Roman",serif;
+  --sans:"Geist",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --pad:clamp(16px,4vw,56px); --max:1280px;
+  --ease:cubic-bezier(.2,.7,.1,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--green);color:var(--paper)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.serif{font-family:var(--serif);font-weight:400}
+
+/* paper grain */
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:100;opacity:.35;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .4 0 0 0 0 .37 0 0 0 0 .3 0 0 0 .18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* progress */
+.progress{position:fixed;top:0;left:0;height:2px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--green),var(--brass));z-index:60}
+
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .4s,box-shadow .4s,backdrop-filter .4s}
+.nav.scrolled{background:rgba(244,240,230,.78);backdrop-filter:blur(14px) saturate(1.2);-webkit-backdrop-filter:blur(14px) saturate(1.2);box-shadow:0 1px 0 var(--line)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:500;letter-spacing:-.01em}
+.mark{width:38px;height:38px;border-radius:12px;background:var(--green);color:var(--paper);display:grid;place-items:center;font-family:var(--serif);font-size:19px;letter-spacing:.02em;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+.brand small{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.links{display:flex;gap:4px;align-items:center}
+.links a{font-size:14px;color:var(--ink-2);padding:8px 14px;border-radius:999px;transition:background .25s,color .25s}
+.links a:hover{background:rgba(21,24,27,.06);color:var(--ink)}
+.links a.active{color:var(--ink);background:rgba(29,68,52,.09)}
+.btn{display:inline-flex;align-items:center;gap:10px;font-size:14.5px;font-weight:500;padding:13px 22px;border-radius:999px;border:1px solid transparent;transition:background .3s,color .3s,border-color .3s,transform .3s var(--ease);will-change:transform;cursor:pointer;font-family:inherit}
+.btn svg{width:16px;height:16px;transition:transform .3s var(--ease)}
+.btn:hover svg{transform:translateX(3px)}
+.btn-dark{background:var(--ink);color:var(--paper)}
+.btn-dark:hover{background:var(--green)}
+.btn-ghost{border-color:var(--line-2);color:var(--ink)}
+.btn-ghost:hover{border-color:var(--ink);background:rgba(21,24,27,.04)}
+.nav .btn{padding:10px 18px;font-size:14px}
+.menu-btn{display:none;width:44px;height:44px;border-radius:12px;border:1px solid var(--line-2);background:transparent;cursor:pointer;place-items:center}
+.menu-btn span{display:block;width:18px;height:1.5px;background:var(--ink);position:relative;transition:transform .3s}
+.menu-btn span::before,.menu-btn span::after{content:"";position:absolute;left:0;width:18px;height:1.5px;background:var(--ink);transition:transform .3s,top .3s}
+.menu-btn span::before{top:-6px}.menu-btn span::after{top:6px}
+body.menu-open .menu-btn span{background:transparent}
+body.menu-open .menu-btn span::before{top:0;transform:rotate(45deg)}
+body.menu-open .menu-btn span::after{top:0;transform:rotate(-45deg)}
+.mobile-menu{position:fixed;inset:72px 0 0 0;background:var(--paper);z-index:49;padding:24px var(--pad);display:flex;flex-direction:column;gap:4px;opacity:0;pointer-events:none;transform:translateY(-8px);transition:opacity .3s,transform .3s var(--ease)}
+body.menu-open .mobile-menu{opacity:1;pointer-events:auto;transform:none}
+.mobile-menu a{font-family:var(--serif);font-size:40px;line-height:1.25;padding:6px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline}
+.mobile-menu a span{font-family:var(--mono);font-size:12px;color:var(--muted)}
+
+/* hero */
+.hero{min-height:100svh;padding:120px 0 56px;display:flex;align-items:center;position:relative}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(32px,5vw,80px);align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;padding:7px 14px 7px 10px;border:1px solid var(--line-2);border-radius:999px;background:rgba(251,249,243,.6);font-size:13px;color:var(--ink-2)}
+.dot{width:8px;height:8px;border-radius:50%;background:#2f8a5b;position:relative}
+.dot::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1px solid #2f8a5b;animation:ping 2.2s var(--ease) infinite}
+@keyframes ping{0%{transform:scale(.6);opacity:1}100%{transform:scale(1.8);opacity:0}}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(60px,10.2vw,150px);line-height:.9;letter-spacing:-.025em;margin:28px 0 28px}
+h1 .line{display:block;overflow:hidden;padding-bottom:.06em}
+h1 .line > span{display:inline-block;transform:translateY(105%);transition:transform 1.2s var(--ease)}
+h1 .line:nth-child(2) > span{transition-delay:.12s}
+h1 em{font-style:italic;color:var(--green)}
+.loaded h1 .line > span{transform:none}
+.lead{font-size:clamp(17px,1.5vw,20px);line-height:1.55;color:var(--ink-2);max-width:34em}
+.lead strong{color:var(--ink);font-weight:500}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);margin-top:56px;border-top:1px solid var(--line)}
+.facts div{padding:18px 18px 0 0}
+.facts div + div{padding-left:18px;border-left:1px solid var(--line)}
+.facts dt{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.facts dd{font-size:15px;font-weight:500;line-height:1.35}
+
+.portrait-wrap{position:relative;justify-self:center;width:min(100%,440px)}
+.arch-outline{position:absolute;inset:-14px -14px 14px 14px;border:1px solid var(--brass);border-radius:999px 999px 28px 28px;opacity:.7}
+.arch{position:relative;aspect-ratio:4/5.2;border-radius:999px 999px 28px 28px;overflow:hidden;background:var(--paper-2);box-shadow:0 40px 80px -40px rgba(29,68,52,.45);clip-path:inset(100% 0 0 0 round 999px 999px 28px 28px);transition:clip-path 1.4s var(--ease) .2s}
+.loaded .arch{clip-path:inset(0 0 0 0 round 999px 999px 28px 28px)}
+.arch img{width:100%;height:115%;object-fit:cover;object-position:50% 18%;transform:scale(1.12);transition:transform 1.8s var(--ease) .2s}
+.loaded .arch img{transform:scale(1)}
+.chip{position:absolute;left:-28px;bottom:42px;background:rgba(251,249,243,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:18px;padding:14px 18px;box-shadow:0 20px 40px -20px rgba(21,24,27,.3);opacity:0;transform:translateY(16px);transition:opacity .8s,transform .8s var(--ease);transition-delay:1s}
+.loaded .chip{opacity:1;transform:none}
+.chip .mono{font-size:10.5px;color:var(--muted);display:block;margin-bottom:2px}
+.chip b{font-weight:500;font-size:15px;display:block}
+.chip small{font-size:13px;color:var(--ink-2)}
+.seal{position:absolute;right:-30px;top:30px;width:118px;height:118px;border-radius:50%;background:var(--green);color:var(--paper);display:grid;place-items:center;box-shadow:0 20px 40px -18px rgba(29,68,52,.7);opacity:0;transition:opacity .8s 1.2s}
+.loaded .seal{opacity:1}
+.seal svg{position:absolute;inset:0;width:100%;height:100%;animation:spin 22s linear infinite}
+.seal text{font-family:var(--mono);font-size:8.6px;letter-spacing:2.6px;fill:var(--paper);text-transform:uppercase}
+.seal .core{font-family:var(--serif);font-size:30px;line-height:1;font-style:italic;color:var(--brass-2)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.scroll-cue{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;color:var(--muted)}
+.scroll-cue i{width:1px;height:40px;background:linear-gradient(var(--ink-2),transparent);animation:cue 2s var(--ease) infinite;transform-origin:top}
+@keyframes cue{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+
+/* marquee */
+.marquee{border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;padding:22px 0;background:var(--card)}
+.marquee-track{display:flex;width:max-content;animation:marq 40s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.marquee span{font-family:var(--serif);font-size:clamp(26px,3vw,40px);white-space:nowrap;padding:0 28px;display:flex;align-items:center;gap:56px}
+.marquee span::after{content:"";width:9px;height:9px;background:var(--brass);transform:rotate(45deg)}
+.marquee span:nth-child(even){font-style:italic;color:var(--green)}
+@keyframes marq{to{transform:translateX(-50%)}}
+
+/* sections */
+section{position:relative}
+.sec{padding:clamp(88px,12vw,160px) 0}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:24px;margin-bottom:clamp(40px,6vw,72px);flex-wrap:wrap}
+.kicker{display:flex;align-items:center;gap:12px;color:var(--muted)}
+.kicker::before{content:"";width:28px;height:1px;background:var(--brass)}
+h2{font-family:var(--serif);font-weight:400;font-size:clamp(42px,6vw,84px);line-height:.98;letter-spacing:-.02em;margin-top:14px}
+h2 em{font-style:italic;color:var(--green)}
+.sec-head p{max-width:30em;color:var(--ink-2)}
+
+/* statement */
+.statement{padding:clamp(100px,14vw,190px) 0}
+.statement-grid{display:grid;grid-template-columns:200px 1fr;gap:40px}
+.statement p.big{font-family:var(--serif);font-size:clamp(32px,4.4vw,64px);line-height:1.12;letter-spacing:-.015em}
+.statement .w{opacity:.14;transition:opacity .25s}
+.statement .w.on{opacity:1}
+.statement .w.hl{color:var(--green);font-style:italic}
+
+/* work cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px 28px 32px;min-height:340px;display:flex;flex-direction:column;overflow:hidden;isolation:isolate;transition:transform .5s var(--ease),border-color .4s,box-shadow .5s}
+.card::before{content:"";position:absolute;inset:0;z-index:-1;opacity:0;transition:opacity .4s;background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(169,132,75,.16),transparent 60%)}
+.card:hover{transform:translateY(-6px);border-color:var(--line-2);box-shadow:0 30px 60px -36px rgba(21,24,27,.35)}
+.card:hover::before{opacity:1}
+.card-top{display:flex;justify-content:space-between;align-items:center;color:var(--muted);padding-bottom:18px;border-bottom:1px dashed var(--line-2)}
+.card-icon{width:52px;height:52px;border-radius:16px;background:var(--green);color:var(--paper);display:grid;place-items:center;margin:32px 0 auto}
+.card-icon svg{width:24px;height:24px}
+.card h3{font-family:var(--serif);font-weight:400;font-size:34px;line-height:1.05;letter-spacing:-.01em;margin:40px 0 12px}
+.card p{color:var(--ink-2);font-size:15.5px}
+
+.lamp{margin-top:20px;display:grid;grid-template-columns:auto 1fr auto;gap:28px;align-items:center;padding:28px 32px;border-radius:24px;background:var(--green);color:var(--paper);overflow:hidden;position:relative}
+.lamp::after{content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;border-radius:50%;border:1px solid rgba(201,166,107,.35);box-shadow:0 0 0 30px rgba(201,166,107,.05),0 0 0 60px rgba(201,166,107,.04)}
+.lamp .badge{font-family:var(--serif);font-size:56px;line-height:1;font-style:italic;color:var(--brass-2)}
+.lamp p{color:rgba(244,240,230,.82);max-width:46em;font-size:15.5px}
+.lamp p b{color:var(--paper);font-weight:500}
+.lamp .mono{color:rgba(244,240,230,.6);position:relative;z-index:1}
+
+/* experience */
+.exp-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(40px,6vw,96px)}
+.exp-side{position:sticky;top:120px;align-self:start}
+.exp-side p{margin-top:24px;color:var(--ink-2);max-width:24em}
+.timeline{position:relative;padding-left:40px}
+.timeline .rail{position:absolute;left:7px;top:8px;bottom:8px;width:1px;background:var(--line-2)}
+.timeline .fill{position:absolute;left:7px;top:8px;width:1px;height:0;background:linear-gradient(var(--green),var(--brass))}
+.role{position:relative;padding:4px 0 56px}
+.role:last-child{padding-bottom:0}
+.role::before{content:"";position:absolute;left:-40px;top:8px;width:15px;height:15px;border-radius:50%;background:var(--paper);border:1px solid var(--line-2);transition:background .4s,border-color .4s,box-shadow .4s}
+.role.lit::before{background:var(--green);border-color:var(--green);box-shadow:0 0 0 5px rgba(29,68,52,.12)}
+.role .when{display:flex;gap:12px;flex-wrap:wrap;align-items:center;color:var(--muted)}
+.tag{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:rgba(47,138,91,.12);color:#22684a;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase}
+.role h3{font-family:var(--serif);font-weight:400;font-size:clamp(30px,3vw,42px);line-height:1.05;margin:12px 0 4px;letter-spacing:-.01em}
+.role .org{font-size:16px;font-weight:500;color:var(--ink-2)}
+.role .org span{color:var(--muted);font-weight:400}
+.role ul{list-style:none;margin-top:20px;display:grid;gap:10px}
+.role li{display:grid;grid-template-columns:22px 1fr;color:var(--ink-2)}
+.role li::before{content:"";width:7px;height:7px;margin-top:9px;background:var(--brass);transform:rotate(45deg)}
+.role.feature{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px 30px 30px;margin-bottom:48px}
+.role.feature::before{left:-41px;top:34px}
+
+/* education */
+.edu{display:grid;grid-template-columns:1.25fr 1fr;gap:20px}
+.edu-card{border:1px solid var(--line);border-radius:24px;padding:32px;background:var(--card);display:flex;flex-direction:column;gap:16px;min-height:260px;transition:transform .5s var(--ease),box-shadow .5s}
+.edu-card:hover{transform:translateY(-4px);box-shadow:0 30px 60px -40px rgba(21,24,27,.35)}
+.edu-card h3{font-family:var(--serif);font-weight:400;font-size:clamp(28px,2.6vw,38px);line-height:1.08;letter-spacing:-.01em}
+.edu-card p{color:var(--ink-2)}
+.edu-card .foot{margin-top:auto;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:18px;border-top:1px dashed var(--line-2);color:var(--muted)}
+
+/* photo band */
+.band{position:relative;height:clamp(560px,88vh,820px);overflow:hidden;border-radius:clamp(20px,3vw,36px);margin:0 var(--pad);background:var(--green);display:grid;grid-template-columns:1.1fr .9fr}
+.band::before{content:"";position:absolute;left:-120px;bottom:-160px;width:520px;height:520px;border-radius:50%;border:1px solid rgba(201,166,107,.22);box-shadow:0 0 0 48px rgba(201,166,107,.04),0 0 0 96px rgba(201,166,107,.03);pointer-events:none}
+.band-photo{position:relative;grid-column:2;grid-row:1;overflow:hidden;border-radius:clamp(14px,2vw,24px);margin:14px 14px 14px 0}
+.band img{position:absolute;left:0;width:100%;height:125%;top:-12.5%;object-fit:cover;object-position:50% 45%;will-change:transform}
+.band-copy{position:relative;z-index:2;grid-column:1;grid-row:1;align-self:end;padding:clamp(28px,5vw,72px);max-width:620px;color:var(--paper)}
+.band-copy .mono{color:var(--brass-2)}
+.band-copy h2{color:var(--paper);font-size:clamp(40px,5vw,74px)}
+.band-copy h2 em{color:var(--brass-2)}
+.band-copy p{margin-top:18px;color:rgba(244,240,230,.8);font-size:17px}
+
+/* contact */
+.contact{background:var(--ink);color:var(--paper);border-radius:clamp(20px,3vw,36px) clamp(20px,3vw,36px) 0 0;margin-top:clamp(88px,12vw,160px);overflow:hidden}
+.contact .kicker{color:rgba(244,240,230,.55)}
+.contact h2{font-size:clamp(52px,9vw,140px);line-height:.92}
+.contact h2 em{color:var(--brass-2)}
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:clamp(48px,6vw,80px)}
+.cbox{position:relative;border:1px solid rgba(244,240,230,.14);border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:28px;transition:background .35s,border-color .35s,transform .45s var(--ease);overflow:hidden}
+.cbox:has(.copy){padding-bottom:58px}
+.cbox:hover{background:rgba(244,240,230,.05);border-color:rgba(244,240,230,.3);transform:translateY(-4px)}
+.cbox .mono{color:rgba(244,240,230,.5);display:flex;justify-content:space-between;align-items:center}
+.cbox .mono svg{width:18px;height:18px;transition:transform .35s var(--ease);color:var(--brass-2)}
+.cbox:hover .mono svg{transform:translate(3px,-3px)}
+.cbox b{font-weight:400;font-size:clamp(18px,1.6vw,22px);word-break:break-word;letter-spacing:-.01em}
+.cb-link::after{content:"";position:absolute;inset:0}
+.copy{z-index:2;position:absolute;right:16px;bottom:16px;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--paper);background:rgba(244,240,230,.08);border:1px solid rgba(244,240,230,.16);border-radius:999px;padding:6px 10px;cursor:pointer;transition:background .25s}
+.copy:hover{background:rgba(244,240,230,.16)}
+footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:28px 0 32px;margin-top:clamp(72px,10vw,120px);border-top:1px solid rgba(244,240,230,.12);color:rgba(244,240,230,.5)}
+footer a:hover{color:var(--paper)}
+.toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);background:var(--green);color:var(--paper);padding:12px 18px;border-radius:999px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s var(--ease);z-index:80}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* side index */
+.rail-nav{position:fixed;right:22px;top:50%;transform:translateY(-50%);z-index:40;display:flex;flex-direction:column;gap:14px}
+.rail-nav a{display:flex;align-items:center;justify-content:flex-end;gap:10px;color:var(--muted)}
+.rail-nav a span{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;opacity:0;transform:translateX(6px);transition:opacity .3s,transform .3s}
+.rail-nav a i{width:14px;height:1px;background:currentColor;transition:width .35s var(--ease),background .3s}
+.rail-nav a:hover span,.rail-nav a.active span{opacity:1;transform:none}
+.rail-nav a.active{color:var(--ink)}
+.rail-nav a.active i{width:30px;background:var(--green)}
+.rail-nav.on-dark a{color:rgba(244,240,230,.5)}
+.rail-nav.on-dark a.active{color:var(--paper)}
+.rail-nav.on-dark a.active i{background:var(--brass-2)}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(28px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}
+
+@media (max-width:1180px){.rail-nav{display:none}}
+@media (max-height:860px){.scroll-cue{display:none}}
+@media (max-width:980px){
+  .links,.nav .btn{display:none}
+  .menu-btn{display:grid}
+  .hero{padding-top:104px;min-height:auto}
+  .hero-grid{grid-template-columns:1fr}
+  .portrait-wrap{order:-1;width:min(78%,360px);margin:8px auto 8px}
+  .seal{width:96px;height:96px;right:-18px}
+  .seal .core{font-size:24px}
+  .chip{left:-12px;bottom:24px}
+  .scroll-cue{display:none}
+  .cards{grid-template-columns:1fr}
+  .card{min-height:0}
+  .card-icon{margin:24px 0 0}
+  .card h3{margin-top:28px}
+  .statement-grid{grid-template-columns:1fr;gap:20px}
+  .exp-grid{grid-template-columns:1fr}
+  .exp-side{position:static}
+  .edu{grid-template-columns:1fr}
+  .lamp{grid-template-columns:1fr;gap:14px}
+  .contact-grid{grid-template-columns:1fr}
+  .band{height:auto;grid-template-columns:1fr}
+  .band-photo{grid-column:1;grid-row:1;height:560px;margin:12px 12px 0}
+  .band-copy{grid-column:1;grid-row:2;padding:28px 24px 36px}
+}
+@media (max-width:560px){
+  .facts{grid-template-columns:1fr}
+  .facts div,.facts div + div{padding:14px 0;border-left:0;border-bottom:1px solid var(--line)}
+  .timeline{padding-left:28px}
+  .timeline .rail,.timeline .fill{left:5px}
+  .role::before{left:-28px;width:11px;height:11px}
+  .role.feature{padding:22px 20px 24px}
+  .role.feature::before{left:-29px;top:30px}
+  .band-photo{height:440px}
+  .band img{object-position:50% 30%}
+  .hero-cta .btn{flex:1;justify-content:center}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important;transition-delay:0s!important}
+  .statement .w{opacity:1}
+}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#top" class="brand" aria-label="Suvidya Kankanala — home">
+      <span class="mark">SK</span>
+      <span>Suvidya Kankanala<small>LAMP '27 · Legislative Assistant</small></span>
+    </a>
+    <nav class="links" aria-label="Primary">
+      <a href="#work">The work</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-dark magnetic">Get in touch
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#work">The work <span>01</span></a>
+  <a href="#experience">Experience <span>02</span></a>
+  <a href="#education">Education <span>03</span></a>
+  <a href="#contact">Contact <span>04</span></a>
+</div>
+
+<nav class="rail-nav" id="railNav" aria-label="Sections">
+  <a href="#top" data-sec="top"><span>Profile</span><i></i></a>
+  <a href="#work" data-sec="work"><span>The work</span><i></i></a>
+  <a href="#experience" data-sec="experience"><span>Experience</span><i></i></a>
+  <a href="#education" data-sec="education"><span>Education</span><i></i></a>
+  <a href="#contact" data-sec="contact"><span>Contact</span><i></i></a>
+</nav>
+
+<main>
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span>Legislative Assistant to a Member of Parliament</span>
+      <h1><span class="line"><span>Suvidya</span></span><span class="line"><span><em>Kankanala</em></span></span></h1>
+      <p class="lead rv d1">LAMP Fellow '27 with <strong>PRS Legislative Research</strong>, working alongside a Member of Parliament on legislative research, oversight briefs and policy drafting.</p>
+      <div class="hero-cta rv d2">
+        <a href="#contact" class="btn btn-dark magnetic">Get in touch
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="https://www.linkedin.com/in/suvidya-kankanala" target="_blank" rel="noopener" class="btn btn-ghost magnetic">LinkedIn profile
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </div>
+      <dl class="facts rv d3">
+        <div><dt>Based in</dt><dd>Delhi, India</dd></div>
+        <div><dt>Focus</dt><dd>Public policy &amp; legislative research</dd></div>
+        <div><dt>Education</dt><dd>B.Tech, VNR VJIET '26</dd></div>
+      </dl>
+    </div>
+
+    <div class="portrait-wrap" id="portrait">
+      <div class="arch-outline"></div>
+      <div class="arch"><img src="assets/portrait.jpg" alt="Portrait of Suvidya Kankanala" width="1100" height="1467" fetchpriority="high"></div>
+      <div class="seal" aria-hidden="true">
+        <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+          <text><textPath href="#circ">Public Policy · Legislative Research · </textPath></text></svg>
+        <span class="core">'27</span>
+      </div>
+      <div class="chip">
+        <span class="mono">Currently</span>
+        <b>PRS Legislative Research</b>
+        <small>Legislative Assistant · Delhi</small>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue mono" aria-hidden="true">Scroll<i></i></div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Public Policy</span><span>Policy Analysis</span><span>Legislative Research</span><span>Parliamentary Procedure</span><span>Constitutional Law</span><span>Policy Drafting</span><span>Government</span>
+    <span>Public Policy</span><span>Policy Analysis</span><span>Legislative Research</span><span>Parliamentary Procedure</span><span>Constitutional Law</span><span>Policy Drafting</span><span>Government</span>
+  </div>
+</div>
+
+<section class="statement">
+  <div class="wrap statement-grid">
+    <div class="kicker mono">Profile</div>
+    <p class="big" id="statement">Suvidya works with a <span data-hl>Member of Parliament</span> on legislative research and policy drafting, applying <span data-hl>constitutional law</span> and <span data-hl>parliamentary procedure</span> to real legislative work.</p>
+  </div>
+</section>
+
+<section class="sec" id="work" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="kicker mono rv">01 — The work</div>
+        <h2 class="rv d1">Inside the <em>legislative</em> office</h2>
+      </div>
+      <p class="rv d2">As a Legislative Assistant, the work spans the research, writing and procedure that sit behind an MP's parliamentary interventions.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card rv">
+        <div class="card-top mono"><span>Brief No. 01</span><span>Oversight</span></div>
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg></div>
+        <h3>Oversight briefs</h3>
+        <p>Writing parliamentary oversight briefs on national issues.</p>
+      </article>
+      <article class="card rv d1">
+        <div class="card-top mono"><span>Brief No. 02</span><span>Drafting</span></div>
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 19c-4.4 0-8-1.8-8-4V7c0-2.2 3.6-4 8-4s8 1.8 8 4v8c0 1-.8 2-2 2.7"/><path d="M8 9h8M8 13h5M17 17l2 4"/></svg></div>
+        <h3>Questions &amp; speeches</h3>
+        <p>Drafting parliamentary questions and speeches for the Member of Parliament.</p>
+      </article>
+      <article class="card rv d2">
+        <div class="card-top mono"><span>Brief No. 03</span><span>Procedure</span></div>
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v18M5 7h14M3 14l2-7 2 7a2 2 0 0 1-4 0zM17 14l2-7 2 7a2 2 0 0 1-4 0zM8 21h8"/></svg></div>
+        <h3>Law &amp; procedure</h3>
+        <p>Studying constitutional law and parliamentary procedure, and applying it to real legislative work.</p>
+      </article>
+    </div>
+
+    <div class="lamp rv">
+      <div class="badge">LAMP</div>
+      <p><b>Legislative Assistants to Members of Parliament</b> — a fellowship run by PRS Legislative Research that places young professionals with MPs to support their legislative and policy work.</p>
+      <div class="mono">Fellow · Class of '27</div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="experience" style="padding-top:0">
+  <div class="wrap exp-grid">
+    <div class="exp-side">
+      <div class="kicker mono rv">02 — Experience</div>
+      <h2 class="rv d1">From campaigns to <em>Parliament</em></h2>
+      <p class="rv d2">A path that began in digital and social media marketing in Hyderabad and moved into legislative research in Delhi.</p>
+    </div>
+    <div class="timeline" id="timeline">
+      <div class="rail"></div><div class="fill" id="tlFill"></div>
+
+      <article class="role feature rv">
+        <div class="when mono"><span class="tag"><span class="dot" style="width:6px;height:6px"></span>Current</span>June 2026 — Present · Delhi, India</div>
+        <h3>Legislative Assistant</h3>
+        <div class="org">PRS Legislative Research <span>· LAMP Fellowship</span></div>
+        <ul>
+          <li>Writing parliamentary oversight briefs on national issues</li>
+          <li>Drafting parliamentary questions and speeches</li>
+          <li>Studying constitutional law and parliamentary procedure and applying it to real legislative work</li>
+        </ul>
+      </article>
+
+      <article class="role rv">
+        <div class="when mono">February — June 2026 · Hyderabad, Telangana</div>
+        <h3>Digital Marketing Specialist</h3>
+        <div class="org">Socioo</div>
+      </article>
+
+      <article class="role rv">
+        <div class="when mono">January 2026 · Hyderabad, Telangana</div>
+        <h3>Social Media Marketing Intern</h3>
+        <div class="org">Flashoot</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="education" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="kicker mono rv">03 — Education</div>
+        <h2 class="rv d1">An engineer’s <em>rigour</em></h2>
+      </div>
+      <p class="rv d2">Trained in electrical, electronics and communications engineering before turning to public policy.</p>
+    </div>
+    <div class="edu">
+      <article class="edu-card rv">
+        <div class="mono" style="color:var(--muted)">Undergraduate</div>
+        <h3>VNR Vignana Jyothi Institute of Engineering and Technology</h3>
+        <p>Bachelor of Technology — Electrical, Electronics and Communications Engineering</p>
+        <div class="foot mono"><span>VNR VJIET</span><span>2022 — 2026</span></div>
+      </article>
+      <article class="edu-card rv d1">
+        <div class="mono" style="color:var(--muted)">School</div>
+        <h3>Pragathi Central School</h3>
+        <p>Central Board of Secondary Education</p>
+        <div class="foot mono"><span>CBSE</span><span>Schooling</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="band" id="band">
+  <div class="band-photo"><img src="assets/full-length.jpg" alt="Suvidya Kankanala standing in a garden courtyard" loading="lazy" width="1000" height="1778"></div>
+  <div class="band-copy">
+    <div class="mono rv">B.Tech '26 → LAMP '27</div>
+    <h2 class="rv d1">Engineering mind,<br><em>public</em> purpose.</h2>
+    <p class="rv d2">From circuits and communications at VNR VJIET to the research desk of a Member of Parliament.</p>
+  </div>
+</div>
+
+<section class="contact" id="contact">
+  <div class="wrap" style="padding-top:clamp(88px,12vw,150px)">
+    <div class="kicker mono rv">04 — Contact</div>
+    <h2 class="rv d1">Let’s talk<br><em>policy.</em></h2>
+    <div class="contact-grid">
+      <div class="cbox rv">
+        <span class="mono">Email <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        <a class="cb-link" href="mailto:kankanalasuvidya@gmail.com"><b>kankanalasuvidya@gmail.com</b></a>
+        <button class="copy" type="button" data-copy="kankanalasuvidya@gmail.com">Copy</button>
+      </div>
+      <div class="cbox rv d1">
+        <span class="mono">Phone <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        <a class="cb-link" href="tel:+916303927387"><b>+91 63039 27387</b></a>
+        <button class="copy" type="button" data-copy="+91 63039 27387">Copy</button>
+      </div>
+      <a class="cbox rv d2" href="https://www.linkedin.com/in/suvidya-kankanala" target="_blank" rel="noopener">
+        <span class="mono">LinkedIn <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        <b>in/suvidya-kankanala</b>
+      </a>
+    </div>
+    <footer class="mono">
+      <span>© 2026 Suvidya Kankanala</span>
+      <span>Delhi, India</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </div>
+</section>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite">Copied</div>
+
+<script>
+(() => {
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const fine = matchMedia('(pointer: fine)').matches;
+  requestAnimationFrame(() => document.body.classList.add('loaded'));
+
+  // reveal on scroll
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+  }), { threshold: .12, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.rv').forEach(el => io.observe(el));
+
+  // split statement into words
+  const st = document.getElementById('statement');
+  const words = [];
+  const split = (node, hl) => {
+    [...node.childNodes].forEach(n => {
+      if (n.nodeType === 3) {
+        const frag = document.createDocumentFragment();
+        n.textContent.split(/(\s+)/).forEach(t => {
+          if (!t) return;
+          if (/^\s+$/.test(t)) { frag.append(t); return; }
+          const s = document.createElement('span');
+          s.className = 'w' + (hl ? ' hl' : ''); s.textContent = t;
+          frag.append(s); words.push(s);
+        });
+        n.replaceWith(frag);
+      } else if (n.nodeType === 1) {
+        split(n, n.hasAttribute('data-hl'));
+        n.replaceWith(...n.childNodes);
+      }
+    });
+  };
+  split(st, false);
+
+  const nav = document.getElementById('nav');
+  const bar = document.getElementById('progress');
+  const tl = document.getElementById('timeline');
+  const fill = document.getElementById('tlFill');
+  const roles = [...tl.querySelectorAll('.role')];
+  const band = document.getElementById('band');
+  const bandImg = band.querySelector('img');
+  const portraitImg = document.querySelector('.arch img');
+  const rail = document.getElementById('railNav');
+  const secIds = ['top', 'work', 'experience', 'education', 'contact'];
+  const secs = secIds.map(id => document.getElementById(id));
+  const navLinks = [...document.querySelectorAll('.links a, .rail-nav a')];
+  const contact = document.getElementById('contact');
+
+  let ticking = false;
+  const onScroll = () => {
+    ticking = false;
+    const y = scrollY, vh = innerHeight;
+    const max = document.documentElement.scrollHeight - vh;
+    bar.style.transform = `scaleX(${max > 0 ? y / max : 0})`;
+    nav.classList.toggle('scrolled', y > 20);
+
+    // statement words
+    const r = st.getBoundingClientRect();
+    const p = Math.min(1, Math.max(0, (vh * .85 - r.top) / (r.height + vh * .35)));
+    const n = reduce ? words.length : Math.round(p * words.length);
+    words.forEach((w, i) => w.classList.toggle('on', i < n));
+
+    // timeline fill
+    const tr = tl.getBoundingClientRect();
+    const tp = Math.min(1, Math.max(0, (vh * .6 - tr.top) / tr.height));
+    fill.style.height = (tp * (tr.height - 16)) + 'px';
+    roles.forEach(ro => ro.classList.toggle('lit', ro.getBoundingClientRect().top < vh * .6));
+
+    if (!reduce) {
+      const br = band.getBoundingClientRect();
+      if (br.bottom > 0 && br.top < vh) {
+        const bp = (br.top + br.height / 2 - vh / 2) / vh;
+        bandImg.style.transform = `translate3d(0,${bp * -8}%,0)`;
+      }
+      if (y < vh) portraitImg.style.translate = `0 ${y * -0.06}px`;
+    }
+
+    // active section
+    let cur = 'top';
+    secs.forEach(s => { if (s.getBoundingClientRect().top < vh * .4) cur = s.id; });
+    navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + cur && cur !== 'top' || (a.dataset.sec === 'top' && cur === 'top')));
+    rail.classList.toggle('on-dark', contact.getBoundingClientRect().top < vh / 2);
+  };
+  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+  addEventListener('resize', onScroll);
+  onScroll();
+
+  // card spotlight
+  document.querySelectorAll('.card').forEach(c => c.addEventListener('pointermove', e => {
+    const b = c.getBoundingClientRect();
+    c.style.setProperty('--mx', (e.clientX - b.left) + 'px');
+    c.style.setProperty('--my', (e.clientY - b.top) + 'px');
+  }));
+
+  // magnetic buttons + portrait tilt
+  if (fine && !reduce) {
+    document.querySelectorAll('.magnetic').forEach(b => {
+      b.addEventListener('pointermove', e => {
+        const r = b.getBoundingClientRect();
+        b.style.transform = `translate(${(e.clientX - r.left - r.width / 2) * .18}px,${(e.clientY - r.top - r.height / 2) * .3}px)`;
+      });
+      b.addEventListener('pointerleave', () => b.style.transform = '');
+    });
+    const pw = document.getElementById('portrait');
+    const arch = pw.querySelector('.arch');
+    pw.addEventListener('pointermove', e => {
+      const r = pw.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width - .5, yy = (e.clientY - r.top) / r.height - .5;
+      arch.style.transform = `perspective(900px) rotateY(${x * 6}deg) rotateX(${-yy * 6}deg)`;
+    });
+    pw.addEventListener('pointerleave', () => arch.style.transform = '');
+    arch.style.transition += ',transform .6s cubic-bezier(.2,.7,.1,1)';
+  }
+
+  // copy
+  const toast = document.getElementById('toast');
+  document.querySelectorAll('[data-copy]').forEach(btn => btn.addEventListener('click', async e => {
+    e.preventDefault(); e.stopPropagation();
+    try { await navigator.clipboard.writeText(btn.dataset.copy); toast.textContent = 'Copied ' + btn.dataset.copy; }
+    catch { toast.textContent = btn.dataset.copy; }
+    toast.classList.add('show'); clearTimeout(toast._t);
+    toast._t = setTimeout(() => toast.classList.remove('show'), 1800);
+  }));
+
+  // mobile menu
+  const mb = document.getElementById('menuBtn');
+  const setMenu = open => { document.body.classList.toggle('menu-open', open); mb.setAttribute('aria-expanded', open); };
+  mb.addEventListener('click', () => setMenu(!document.body.classList.contains('menu-open')));
+  document.querySelectorAll('#mobileMenu a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+})();
+</script>
+</body>
+</html>
